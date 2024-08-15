@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app-container
-        image: erenstajregistry.azurecr.io/eren_image:11  # erenStajRegistry de login serverda 
+        image: erenstajregistry.azurecr.io/eren_image:buildid  # erenStajRegistry de login serverda 
         ports:
         - containerPort: 3000
 ---
